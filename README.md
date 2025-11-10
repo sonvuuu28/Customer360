@@ -79,3 +79,30 @@ Sử dụng **Olist Brazilian E-Commerce dataset**:
 - Bản tổng quan **Customer 360 View** cho từng khách hàng.  
 - Insight về hành vi mua hàng, giá trị khách hàng, khả năng churn.  
 - Hệ thống tương tác: **click vào khách hàng → xem vòng đời → chatbot trả lời → báo cáo trực quan trên PowerBI**.  
+
+## Cấu trúc thư mục
+
+```text
+olist-customer-lifecycle/
+│
+├── 📁 data
+│   ├── 📁 1_raw
+│   ├── 📁 2_clean
+│   └── 📁 3_model
+├── 📁 notebooks
+│   ├── 📄 01_data_understanding.ipynb
+│   ├── 📄 02_data_cleaning.ipynb
+│   ├── 📄 03_EDA.ipynb
+│   ├── 📄 04_feature_engineering.ipynb
+│   └── 📄 05_modeling.ipynb
+├── 📁 output
+│   ├── 📁 image
+│   ├── 📁 n8n
+│   │   └── 📘 knowledege_file.docx
+│   ├── 📁 powerBI
+│   └── 📁 streamlit
+├── 📝 README.md
+└── 📄 requirements.txt
+```
+
+---
